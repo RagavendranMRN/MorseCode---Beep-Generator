@@ -5,5 +5,5 @@ Morse code is a method used in telecommunication to encode text characters as st
 
 # Output
 
-Orginal: MORSE CODE GENERATOR \n
+Orginal: MORSE CODE GENERATOR \r
 Coded: -- --- .-. ... .  |  -.-. --- -.. .  |  --. . -. . .-. .- - --- .-.
