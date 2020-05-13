@@ -1,4 +1,5 @@
 import winsound
+import time
 
 MORSE_CODE_DICT = { 'A':'.-', 'B':'-...', 
                     'C':'-.-.', 'D':'-..', 'E':'.', 
@@ -28,6 +29,6 @@ for char in Message:
         	elif code == "-":
         		winsound.Beep(2000, 200)
 
-        winsound.Beep(40, 200)
+        time.sleep(0.5)
 
 print(f'Orginal: {Message}\nCoded: {Morsecoded}')
