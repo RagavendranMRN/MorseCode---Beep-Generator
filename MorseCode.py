@@ -29,6 +29,6 @@ for char in Message:
         	elif code == "-":
         		winsound.Beep(2000, 200)
 
-        time.sleep(0.5)
+        time.sleep(1)
 
 print(f'Orginal: {Message}\nCoded: {Morsecoded}')
